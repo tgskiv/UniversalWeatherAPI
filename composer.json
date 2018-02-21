@@ -6,7 +6,7 @@
 		}
 	},	
     "type": "library",
-    "license": "BSD",
+    "license": "MITNFA",
     "minimum-stability": "stable",
     "require": {},
 	"repositories": [
