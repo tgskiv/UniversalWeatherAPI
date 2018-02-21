@@ -1,5 +1,10 @@
 {
     "name": "tgskiv/universalweatherapi",
+	"autoload": {
+		"psr-0" : {
+			"Tgskiv\\UniversalWeatherAPI" : "src"
+		}
+	},	
     "type": "library",
     "license": "BSD",
     "minimum-stability": "stable",
@@ -8,7 +13,7 @@
 		{
 			"type": "package",
 			"package": {
-				"name": "tgskiv/UniversalWeatherAPI",
+				"name": "tgskiv/universalweatherapi",
 				"version": "dev-master",
 				"source": {
 					"url": "git://git@github.com:tgskiv/UniversalWeatherAPI.git",
