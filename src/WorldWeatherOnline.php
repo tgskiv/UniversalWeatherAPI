@@ -1,5 +1,6 @@
 <?php
-namespace SimpleUniversalWeatherAPI;
+
+namespace UniversalWeatherAPI;
 
 
 class WorldWeatherOnline implements WeatherImplementationInterface

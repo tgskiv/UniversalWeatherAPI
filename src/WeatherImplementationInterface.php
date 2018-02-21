@@ -1,8 +1,10 @@
 <?php
 
-namespace SimpleUniversalWeatherAPI;
+namespace UniversalWeatherAPI;
 
-interface WeatherImplementationInterface {
+
+interface WeatherImplementationInterface
+{
 
     public function __construct($key);
 

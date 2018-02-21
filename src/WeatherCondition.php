@@ -1,6 +1,6 @@
 <?php
 
-namespace SimpleUniversalWeatherAPI;
+namespace UniversalWeatherAPI;
 
 
 class WeatherCondition {

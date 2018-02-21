@@ -1,19 +1,26 @@
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "tgskiv/yii2weather",
-            "version": "dev-master",
-            "source": {
-                "url": "git://git@github.com:tgskiv/yii2weather.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "SimpleUniversalWeatherAPI" : "src"
-                }
-            }
-        }
-    }
-],
+{
+    "name": "tgskiv/universalweatherapi",
+    "type": "library",
+    "license": "BSD",
+    "minimum-stability": "stable",
+    "require": {},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "tgskiv/UniversalWeatherAPI",
+				"version": "dev-master",
+				"source": {
+					"url": "git://git@github.com:tgskiv/UniversalWeatherAPI.git",
+					"type": "git",
+					"reference": "master"
+				},
+				"autoload": {
+					"psr-0" : {
+						"Tgskiv\\UniversalWeatherAPI" : "src"
+					}
+				}
+			}
+		}
+	]
+}

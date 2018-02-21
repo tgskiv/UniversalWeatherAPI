@@ -1,9 +1,7 @@
 <?php
 
-namespace SimpleUniversalWeatherAPI;
+namespace UniversalWeatherAPI;
 
-
-use Yii;
 
 class WeatherException extends \Exception {
 
